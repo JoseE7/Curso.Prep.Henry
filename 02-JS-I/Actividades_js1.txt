@@ -1,0 +1,107 @@
+EXPLICACIÓN DE CONCEPTOS BÁSICOS
+
+VARIABLES:
+Las variables son datos en donde se guardan valores
+que seran usados posteriormente, es decir, cuando
+se necesiten.
+Las variables reciben un nombre para su identificación.
+Los valores que se pueden almacenar en las variables
+son: números, strings, valores booleanos (verdadero, falso,
+o true, false en inglés).
+
+STRINGS:
+Los strings son cadenas de caracteres, estos pueden
+letras, números y ciertos símbolos. Además, los 
+strings siempre se encierran entre comillas simples ''
+o comillas dobles " ".
+Ejemplos: 'fruta', 'fruta1', "piso_12",
+"¿Cómo se escriben los strings?"
+
+
+
+FUNCIONES:
+Las funciones son sentencias, es decir,
+son instrucciones que se dan a las computadoras
+para que realicen una acción determinada
+con los valores o argumentos que ingresemos.
+Después de darle las instrucciones a una función, 
+cuando nosotros llamemos o nombremos a la función
+y le indiquemos los datos con que debe trabajar, 
+la función trabajará con los datos según las
+instrucciones dadas.
+
+Las partes de la funciones son:
+
+function suma(a, b) {
+    var suma = a + b:
+    return suma;
+}
+
+function: es la palabra clave que permite crear
+la función.
+
+nombre de la función: en este caso el la palabra 'suma'
+que viene después de la palabra clave function.
+
+(argumentos): todos los elementos que se encuentren
+dentro de los parentesis son los datos o variables 
+con los que trabaja la función.
+En el ejemplo, a y b son los argumentos, es decir,
+los datos con los que trabaja la función. En este caso
+realiza la suma de a y b, para luego guardar el
+resultado en la variable suma.
+
+Return: es una palabra clave que indica la finalización
+de la función y  devuelve el resultado al que ha llegado.
+A continuación de la palabra 'return'
+se debe indicar lo que la función debe mostrar al 
+terminar.
+
+
+
+
+SENTENCIAS IF:
+Las sentencias IF son sentencias condicionales que
+permiten controlar las partes de código que deben
+ejecutarse y las que no deben ejecutarse.
+
+Ejemplo,
+if (condicion1) {
+    \\Código que se ejecuta en esta condición
+    return 'respuesta si se cumple la condicion1';
+} else if (condicion2) {
+    \\Código que se ejecuta en esta condición2
+    return 'respuesta si se cumple condicion2;
+} else
+    \\Código que se ejecuta si no se cumple ninguna
+    de las anteriores condiciones.
+}
+
+'if' es la palabra clave para crear una sentencias
+condicionales, es decir, permite indicar las
+condiciones que la computadora debe revisar.
+
+(condiciones), las condiciones son aquellas comparaciones
+que debe realizar la computadora para ver si sigue
+adelante con el código, o, si no se cumple, saltar a
+la siguiente condición.
+
+{}, las llaves permiten identificar y limitar
+el código que debe ejecutarse si se cumple
+una condición.
+
+
+
+
+VALORES BOOLEANOS (true, false):
+Los valores booleanos son los valores que resultan 
+de realizar una comparación.
+
+Ejemplo de comparaciones,
+a<b, a>b, a==b, a==='hola mundo!' 
+
+La computadora, después de realizar la comparación,
+indica si es verdadera (true) o si es falsa (false).
+
+Aunque las computadoras internamente, trabajan con
+ valores de 1 para verdadero, y valores de 0 para falso.
