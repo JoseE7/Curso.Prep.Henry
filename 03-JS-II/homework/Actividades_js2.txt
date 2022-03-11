@@ -1,0 +1,66 @@
+DESARROLLO
+
+for:
+Es una palabra clave que permite que una operación o 
+instrucción que se le dé a la computadora se repita
+tantas veces como vos le indiques o programes.
+
+Para usar for necesitas indicar 3 elementos:
+
+for (var i=1; i< 100; i++){
+    Operación que quieres que se repita en for.
+}
+
+Lo que va en parentesis () son los parámetros que
+necesita for para saber cuantas veces va realizar 
+la misma operación.
+
+var i=1: te permite declarar una variable i que
+inicie con un valor determinado, en este caso 1
+
+i<100 : determina que i puede tomar como máximo
+un valor menor a 100, aunque se puede tomar como
+valor límite el valor de otra varible anteriormente
+ declarada. Ej : i <= numeroX
+
+i++ : es lo mismo que indicar i=i+1 . Es decir, que
+incrementa en una unidad la variable i al finalizar
+el ciclo.
+
+Así, cada vez que se repita el ciclo, i se incrementará
+en una unidad, hasta que llega a un valor límite 
+(i<número). Cuando se llega a este valor, el ciclo se
+termina. Y las instrucciones dentro de {} se
+ejecutaron esa misma cantidad de veces.
+
+
+OPERADORES LÓGICOS && , || , !:
+
+Estos operadores te permiten comparar dos o más
+declaraciones, pero ! solo cambia el valor booleano
+de una declaración.
+
+&& es el operador 'Y' en español o 'AND' en 
+inglés. Te permite verificar o saber si todas las 
+declaraciones que se tienen son verdaderas. Si
+todas son verdaderas, el resultado será TRUE.
+Si tan solo una de ellas es falsa, el resultado
+será FALSE.
+
+|| es el operador 'O' en español u 'OR'en inglés.
+Te permite verificar o saber si UNA sola declaración
+es verdadera. Si UNA sola declaración es verdadera, 
+el resultado será TRUE. Si todas las declaraciones
+son falsas, el resultado será FALSE.
+
+! es el operador de negación, es decir, que cambiará
+de valor booleano a una declaración verdadera o falsa.
+ Ej 2>1 -----> Resultado booleano: TRUE
+    !(2>1)---> Resultado booleano: FALSE
+    10<5 ----> Resultado booleano: FALSE
+    !(10<5)--> Resultado booleano: TRUE
+
+Es importante ver que los parentesis permiten separar
+bien las declaraciones para que el operador ! cambie
+solo el valor booleano de la declaración encerrada
+entre ()
